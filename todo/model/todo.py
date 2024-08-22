@@ -7,8 +7,15 @@ class Todo:
         self.completed = False
         self.tags = []
         
-@classmethod
+    def mark_completed(self):
+        self.completed = True
         
+    def add_tag(self, tag: str):
+        if tag not in self.tags:
+            self.tags.append(tag)
+            
+ 
         
+    
         
    
