@@ -17,7 +17,19 @@ class Todo:
     def __str__(self) -> str:
         return f"{self.code_id} - {self.title}"
     
-class
+class TodoBook:
+    def __init__(self) -> None:
+        self.todos. dict[int, Todo] = {}
+        
+    def add_todo(self, title: str, description: str):
+        todo_if = len(self.todos) + 1
+        
+        objeto_todo = (title, description)
+        
+        self.todos[todo_id] = objeto_todo
+        
+    def pending_todos(self):
+        return []
             
  
         
